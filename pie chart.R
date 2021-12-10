@@ -1,0 +1,11 @@
+hist (Air Passengers, xlim=c (150,600), ylim=c (0,35))
+In the above example x limit varies from 150 to 600 and Y – 0 to 35.
+// Adding breaks
+hist (AirPassengers,
+      main="Histogram with more Arg",
+      xlab="Name List",
+      border="Green",
+      col="Orange",
+      xlim=c (100,600),
+      ylim=c(0,40),
+      breaks=5)
